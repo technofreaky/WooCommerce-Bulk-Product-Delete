@@ -1,0 +1,1 @@
+# WooCommerce-Bulk-Product-Delete
