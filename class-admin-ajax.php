@@ -49,7 +49,10 @@ class WooCommerce_Bulk_Product_Delete_Admin_Ajax {
         }
         
         foreach($ids as $id){
+			$id = str_replace("\r","",$id);
+			if ($id == "") break;
             $delete = $delete_function($id);
+			error_log("Deleting ID " . $id);
             if($delete){
                 $success++;
             } else {
