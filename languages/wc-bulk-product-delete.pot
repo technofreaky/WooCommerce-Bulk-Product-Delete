@@ -111,6 +111,10 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
+#: views/admin_page.php:46
+msgid "UnTrash"
+msgstr ""
+
 #: views/admin_page.php:50
 msgid "Execute"
 msgstr ""
